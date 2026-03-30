@@ -15,5 +15,7 @@ This project was developed to combat the spread of "fake news" by providing a to
 - `app.py`: The Flask web application logic.
 - `train_model.py`: The script used to process the dataset and train the ML model.
 - `model.pkl`: The serialized, pre-trained model ready for production.
-- `data/`: Contains the datasets used for training and testing.(Fake.csv/Real.csv) are excluded from the repository for size/privacy but are used locally for training)
+- `data/`: Contains the datasets used for training and testing.
+This project uses the ISOT Fake News Dataset from Kaggle.
+Note: Fake.csv and Real.csv are excluded from this repository due to file size/privacy but are required locally for retraining.
 - `static/` & `templates/`: Frontend assets and UI layout.
