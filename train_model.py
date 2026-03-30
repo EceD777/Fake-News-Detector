@@ -67,7 +67,7 @@ def build_csv_from_images():
     pd.DataFrame({"text": real_texts}).to_csv("Real.csv", index=False)
     pd.DataFrame({"text": fake_texts}).to_csv("Fake.csv", index=False)
 
-    print("\n📄 OCR process completed!")
+    print("\n OCR process completed!")
     print("✔ Real.csv created.")
     print("✔ Fake.csv created.\n")
 
